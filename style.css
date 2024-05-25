@@ -1,18 +1,90 @@
 
-    body{
+body{
     background-color:rgb(245, 245, 247) ;  
+    font-family: "Poetsen One", sans-serif;
+    font-style: normal;   
+    padding: 10px; 
     
-        font-family: "Poetsen One", sans-serif;
-        font-weight: 400;
-        font-style: normal;
-     
-       
 }
+
+p{
+    font-size: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+#header{
+    display: flex;
+    gap: 10px;
+    background-color: rgb(241, 225, 225);
+    text-align: center;
+
+}
+
+.title{
+    width: 100%;
+}
+
 h1 {
     text-align: center;
-    color: rgb(232, 14, 14);
+    color: rgb(242, 0, 0);
+    font-size: 3rem;
+   
+   
 }
 
 h2{
     text-align: center;
+    font-size: 2rem;
+
+}
+
+h3{
+    font-size:22px ;
+}
+
+li{
+    font-size:18px;
+    list-style-type: none;
+    
+   
+}
+
+#content {
+    text-decoration: none;
+    display: flex;
+    gap: 20px;
+    text-align: center;
+ 
+}
+
+.topic{
+    background-color: rgb(155, 217, 155);
+    padding: 30px;
+    text-align: center;
+    
+    width: 100%;
+}
+
+.boxofcontent{
+    text-align: center;
+}
+
+
+@media (min-width:200px) and (max-width: 700px) {
+    body{
+   
+      background-color: wheat;
+      display: inline-block; 
+    }
+    h3{
+        text-align: center;
+    }
+    #content{
+        display:inline-block;
+        
+    }
 }
